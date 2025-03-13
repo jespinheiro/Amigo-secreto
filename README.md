@@ -7,13 +7,12 @@ COMO EXECUTAR O PROJETO
 - No campo abaixo, vai ser exibida a lista com todos os amigos que foram adicionados
 - Quando terminar de adicionar, clique no botão "Sortear Amigo" para escolher aleatoriamente um dos nomes da lista
 - O nome sorteado será exibido na tela
-- E em seguida, os confetes 🎉
 
 COMO O JAVA SCRIPT FUNCIONA
 Uma explicação básica dos principais trechos do código:
 - Array amigos[]: Guarda todos os nomes que foram adicionados
 - adicionarAmigo():
-  Pega o valor digitado no input e verifica se algum nome foi digitado, se não, exibe um alerta
+  Vai pegar o valor digitado no input e verificar se algum nome foi digitado, se não, vai exibir um alerta
   Adiciona o nome ao array amigos[]
   Limpa o campo de input e mantém o foco nele
   Chama a função atualizarLista()
@@ -21,7 +20,7 @@ Uma explicação básica dos principais trechos do código:
   Limpa a lista no HTML
   Cria um elemento <li> para cada nome do array amigos[] e exibe na lista
 - sortearAmigo():
-  Verifica se há nomes na lista; se não, exibe um alerta
+  Verifica se há nomes na lista; senão, exibe um alerta
   Sorteia um nome aleatório usando Math.random() e Math.floor()
-  Exibe o nome sorteado.
-  Limpa a lista de amigos após o sorteio.
+  Exibe o nome que foi sorteado
+  Limpa a lista de amigos após o sorteio
